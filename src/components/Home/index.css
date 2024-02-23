@@ -1,0 +1,52 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-family: 'Roboto';
+}
+.profile_container {
+  align-self: center;
+  text-align: center;
+}
+.profile_image {
+  width: 50%;
+}
+.profile_heading {
+  font-size: 25px;
+  color: #12022f;
+}
+.profile_para {
+  font-size: 21px;
+  color: #616e7c;
+  font-weight: 500;
+}
+.listcontainer {
+  list-style-type: none;
+  padding: 15px;
+}
+.itemsList {
+}
+.postContainer {
+  width: 100%;
+  margin: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title {
+  font-size: 25px;
+  font-weight: bold;
+}
+.publishedDate {
+  color: #9aa5b1;
+  font-weight: 400;
+  font-size: 21px;
+}
+.description {
+  color: #9aa5b1;
+  font-weight: 400;
+  width: 80%;
+  font-size: 21px;
+}
